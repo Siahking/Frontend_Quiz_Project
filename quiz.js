@@ -49,10 +49,10 @@ function compareObjs(obj){
 //styles the border of the div based on the users answer, red for wrong and green for correct
 function setDiv(div,answer,ansCount){
     if (answer){
-        div.style.border = 'solid green 1px';
+        div.classList.add("correct-answer");
         ansCount++;
     }else{
-        div.style.border = 'solid red 1px';
+        div.classList.add("wrong-answer");
     }
 }
 
