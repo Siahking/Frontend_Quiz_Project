@@ -1,4 +1,4 @@
-# Quiz Web App
+# Quiz Web App 
 
 A simple interactive **quiz application** built using **HTML, CSS, and Javascript**. Users answer multiple-choice questions and recieve instant feedback based on their selections.
 
